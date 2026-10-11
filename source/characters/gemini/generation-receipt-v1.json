@@ -1,0 +1,14 @@
+{
+  "character": "gemini",
+  "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12d0c-8375-79f0-ace9-afa1b234d5a3\\exec-c8de5927-4f1a-4c86-8162-342db7702ade.png",
+  "target": "E:\\cladue缓存\\AI全家动态指针_20261012\\characters\\gemini\\poses-v1.png",
+  "sha256": "fd8463b948b14d5ea9033cbb86db1b37840ee4941d8be072d33f587abd001378",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "method": "built-in image_gen",
+  "seed": "not exposed by built-in tool",
+  "original_preserved": true
+}

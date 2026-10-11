@@ -1,0 +1,86 @@
+[
+  {
+    "repo": "qwen-cursors",
+    "test": "test_keeper_selection.py",
+    "exit_code": 0,
+    "output": "{\"selection_cases\": 13, \"registry_isolated\": true, \"no_system_cursor_apply\": true, \"resident_keeper_started\": false, \"independent_object_names\": true, \"source_sha256\": \"c027ec04e2443816baaee84ba81cdfc5bc29a741efb4865e7055f517998ace90\", \"compile_succeeded\": true, \"fixture_edit\": \"RegistryPath and installed Root redirected; compiled console harness in LOCALAPPDATA, real ReadSelection and object naming, no resident keeper\", \"compiled_fixture_path\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\CodexCursorVerification\\\\b906a4d30c0644b7b7b0da13248154a1\\\\selection-test.exe\"}\n",
+    "error": ""
+  },
+  {
+    "repo": "qwen-cursors",
+    "test": "test_inf_installers.py",
+    "exit_code": 0,
+    "output": "安装_Qwen_32px.inf native INF installation passed\n安装_Qwen_48px.inf native INF installation passed\n安装_Qwen_64px.inf native INF installation passed\n安装_Qwen_128px.inf native INF installation passed\n安装_Qwen_256px.inf native INF installation passed\n{\"version\": \"1.0.0\", \"schemes\": 5, \"native_setupapi_used\": true, \"registry_and_Windows_destination_redirected_for_isolation\": true, \"only_fixture_edit\": \"reserved DIRID 10 and its placeholders replaced by user DIRID 32768; all installation sections/files/roles unchanged\", \"actual_Explorer_context_menu_not_automated\": true, \"active_system_cursors_unchanged\": true, \"roles_copied_and_registered\": 85, \"no_executable_hooks\": true, \"does_not_claim_runtime_size_changes\": true}\n",
+    "error": ""
+  },
+  {
+    "repo": "kimi-cursors",
+    "test": "test_keeper_selection.py",
+    "exit_code": 0,
+    "output": "{\"selection_cases\": 13, \"registry_isolated\": true, \"no_system_cursor_apply\": true, \"resident_keeper_started\": false, \"independent_object_names\": true, \"source_sha256\": \"52668002163ef34bd5339a2116e2c9516e8498e77cb81e177ae837bbe453ee1b\", \"compile_succeeded\": true, \"fixture_edit\": \"RegistryPath and installed Root redirected; compiled console harness in LOCALAPPDATA, real ReadSelection and object naming, no resident keeper\", \"compiled_fixture_path\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\CodexCursorVerification\\\\3de9a82fa53e46ff9cbe6916e85ec527\\\\selection-test.exe\"}\n",
+    "error": ""
+  },
+  {
+    "repo": "kimi-cursors",
+    "test": "test_inf_installers.py",
+    "exit_code": 0,
+    "output": "安装_Kimi_32px.inf native INF installation passed\n安装_Kimi_48px.inf native INF installation passed\n安装_Kimi_64px.inf native INF installation passed\n安装_Kimi_128px.inf native INF installation passed\n安装_Kimi_256px.inf native INF installation passed\n{\"version\": \"1.0.0\", \"schemes\": 5, \"native_setupapi_used\": true, \"registry_and_Windows_destination_redirected_for_isolation\": true, \"only_fixture_edit\": \"reserved DIRID 10 and its placeholders replaced by user DIRID 32768; all installation sections/files/roles unchanged\", \"actual_Explorer_context_menu_not_automated\": true, \"active_system_cursors_unchanged\": true, \"roles_copied_and_registered\": 85, \"no_executable_hooks\": true, \"does_not_claim_runtime_size_changes\": true}\n",
+    "error": ""
+  },
+  {
+    "repo": "glm-cursors",
+    "test": "test_keeper_selection.py",
+    "exit_code": 0,
+    "output": "{\"selection_cases\": 13, \"registry_isolated\": true, \"no_system_cursor_apply\": true, \"resident_keeper_started\": false, \"independent_object_names\": true, \"source_sha256\": \"ae7c4944143c02d7796d22b494ab091594c3974794ddb0788446adfb09cda593\", \"compile_succeeded\": true, \"fixture_edit\": \"RegistryPath and installed Root redirected; compiled console harness in LOCALAPPDATA, real ReadSelection and object naming, no resident keeper\", \"compiled_fixture_path\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\CodexCursorVerification\\\\338e7e17ce8d4cdf973c1709e08def64\\\\selection-test.exe\"}\n",
+    "error": ""
+  },
+  {
+    "repo": "glm-cursors",
+    "test": "test_inf_installers.py",
+    "exit_code": 0,
+    "output": "安装_GLM_32px.inf native INF installation passed\n安装_GLM_48px.inf native INF installation passed\n安装_GLM_64px.inf native INF installation passed\n安装_GLM_128px.inf native INF installation passed\n安装_GLM_256px.inf native INF installation passed\n{\"version\": \"1.0.0\", \"schemes\": 5, \"native_setupapi_used\": true, \"registry_and_Windows_destination_redirected_for_isolation\": true, \"only_fixture_edit\": \"reserved DIRID 10 and its placeholders replaced by user DIRID 32768; all installation sections/files/roles unchanged\", \"actual_Explorer_context_menu_not_automated\": true, \"active_system_cursors_unchanged\": true, \"roles_copied_and_registered\": 85, \"no_executable_hooks\": true, \"does_not_claim_runtime_size_changes\": true}\n",
+    "error": ""
+  },
+  {
+    "repo": "mimo-cursors",
+    "test": "test_keeper_selection.py",
+    "exit_code": 0,
+    "output": "{\"selection_cases\": 13, \"registry_isolated\": true, \"no_system_cursor_apply\": true, \"resident_keeper_started\": false, \"independent_object_names\": true, \"source_sha256\": \"9be1dccc2838e22fe71364731487869950926821ab7acca8ac54d53ab437009c\", \"compile_succeeded\": true, \"fixture_edit\": \"RegistryPath and installed Root redirected; compiled console harness in LOCALAPPDATA, real ReadSelection and object naming, no resident keeper\", \"compiled_fixture_path\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\CodexCursorVerification\\\\011edfb090624453a0f2869b7e3ce5ee\\\\selection-test.exe\"}\n",
+    "error": ""
+  },
+  {
+    "repo": "mimo-cursors",
+    "test": "test_inf_installers.py",
+    "exit_code": 0,
+    "output": "安装_MiMo_32px.inf native INF installation passed\n安装_MiMo_48px.inf native INF installation passed\n安装_MiMo_64px.inf native INF installation passed\n安装_MiMo_128px.inf native INF installation passed\n安装_MiMo_256px.inf native INF installation passed\n{\"version\": \"1.0.0\", \"schemes\": 5, \"native_setupapi_used\": true, \"registry_and_Windows_destination_redirected_for_isolation\": true, \"only_fixture_edit\": \"reserved DIRID 10 and its placeholders replaced by user DIRID 32768; all installation sections/files/roles unchanged\", \"actual_Explorer_context_menu_not_automated\": true, \"active_system_cursors_unchanged\": true, \"roles_copied_and_registered\": 85, \"no_executable_hooks\": true, \"does_not_claim_runtime_size_changes\": true}\n",
+    "error": ""
+  },
+  {
+    "repo": "gemini-cursors",
+    "test": "test_keeper_selection.py",
+    "exit_code": 0,
+    "output": "{\"selection_cases\": 13, \"registry_isolated\": true, \"no_system_cursor_apply\": true, \"resident_keeper_started\": false, \"independent_object_names\": true, \"source_sha256\": \"6435e58cc9a33527b8dd6e108a216a65b5e422870f44d8b9ba8fe18fee3f96b0\", \"compile_succeeded\": true, \"fixture_edit\": \"RegistryPath and installed Root redirected; compiled console harness in LOCALAPPDATA, real ReadSelection and object naming, no resident keeper\", \"compiled_fixture_path\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\CodexCursorVerification\\\\87ffa990a0ef49aa92081b3598b4eb95\\\\selection-test.exe\"}\n",
+    "error": ""
+  },
+  {
+    "repo": "gemini-cursors",
+    "test": "test_inf_installers.py",
+    "exit_code": 0,
+    "output": "安装_Gemini_32px.inf native INF installation passed\n安装_Gemini_48px.inf native INF installation passed\n安装_Gemini_64px.inf native INF installation passed\n安装_Gemini_128px.inf native INF installation passed\n安装_Gemini_256px.inf native INF installation passed\n{\"version\": \"1.0.0\", \"schemes\": 5, \"native_setupapi_used\": true, \"registry_and_Windows_destination_redirected_for_isolation\": true, \"only_fixture_edit\": \"reserved DIRID 10 and its placeholders replaced by user DIRID 32768; all installation sections/files/roles unchanged\", \"actual_Explorer_context_menu_not_automated\": true, \"active_system_cursors_unchanged\": true, \"roles_copied_and_registered\": 85, \"no_executable_hooks\": true, \"does_not_claim_runtime_size_changes\": true}\n",
+    "error": ""
+  },
+  {
+    "repo": "grok-cursors",
+    "test": "test_keeper_selection.py",
+    "exit_code": 0,
+    "output": "{\"selection_cases\": 13, \"registry_isolated\": true, \"no_system_cursor_apply\": true, \"resident_keeper_started\": false, \"independent_object_names\": true, \"source_sha256\": \"cd67cdd18d8a26e78d3f1b66b576fbca01da97f5b50fbd78d615d9ed9895daa3\", \"compile_succeeded\": true, \"fixture_edit\": \"RegistryPath and installed Root redirected; compiled console harness in LOCALAPPDATA, real ReadSelection and object naming, no resident keeper\", \"compiled_fixture_path\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\CodexCursorVerification\\\\a3e19e149fbb4d9fb6dffaaca742a464\\\\selection-test.exe\"}\n",
+    "error": ""
+  },
+  {
+    "repo": "grok-cursors",
+    "test": "test_inf_installers.py",
+    "exit_code": 0,
+    "output": "安装_Grok_32px.inf native INF installation passed\n安装_Grok_48px.inf native INF installation passed\n安装_Grok_64px.inf native INF installation passed\n安装_Grok_128px.inf native INF installation passed\n安装_Grok_256px.inf native INF installation passed\n{\"version\": \"1.0.0\", \"schemes\": 5, \"native_setupapi_used\": true, \"registry_and_Windows_destination_redirected_for_isolation\": true, \"only_fixture_edit\": \"reserved DIRID 10 and its placeholders replaced by user DIRID 32768; all installation sections/files/roles unchanged\", \"actual_Explorer_context_menu_not_automated\": true, \"active_system_cursors_unchanged\": true, \"roles_copied_and_registered\": 85, \"no_executable_hooks\": true, \"does_not_claim_runtime_size_changes\": true}\n",
+    "error": ""
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "repo": "qwen-cursors",
+    "exit_code": 0,
+    "evidence": "E:\\cladue缓存\\AI全家动态指针_20261012\\tests\\qwen-cursors\\installer-validation.json",
+    "fixture_environment": "Explicit native WinPS5 module directory; parent Codex PS7 bundled module excluded only for this child"
+  },
+  {
+    "repo": "kimi-cursors",
+    "exit_code": 0,
+    "evidence": "E:\\cladue缓存\\AI全家动态指针_20261012\\tests\\kimi-cursors\\installer-validation.json",
+    "fixture_environment": "Explicit native WinPS5 module directory; parent Codex PS7 bundled module excluded only for this child"
+  },
+  {
+    "repo": "glm-cursors",
+    "exit_code": 0,
+    "evidence": "E:\\cladue缓存\\AI全家动态指针_20261012\\tests\\glm-cursors\\installer-validation.json",
+    "fixture_environment": "Explicit native WinPS5 module directory; parent Codex PS7 bundled module excluded only for this child"
+  },
+  {
+    "repo": "mimo-cursors",
+    "exit_code": 0,
+    "evidence": "E:\\cladue缓存\\AI全家动态指针_20261012\\tests\\mimo-cursors\\installer-validation.json",
+    "fixture_environment": "Explicit native WinPS5 module directory; parent Codex PS7 bundled module excluded only for this child"
+  },
+  {
+    "repo": "gemini-cursors",
+    "exit_code": 0,
+    "evidence": "E:\\cladue缓存\\AI全家动态指针_20261012\\tests\\gemini-cursors\\installer-validation.json",
+    "fixture_environment": "Explicit native WinPS5 module directory; parent Codex PS7 bundled module excluded only for this child"
+  },
+  {
+    "repo": "grok-cursors",
+    "exit_code": 0,
+    "evidence": "E:\\cladue缓存\\AI全家动态指针_20261012\\tests\\grok-cursors\\installer-validation.json",
+    "fixture_environment": "Explicit native WinPS5 module directory; parent Codex PS7 bundled module excluded only for this child"
+  }
+]

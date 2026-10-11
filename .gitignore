@@ -1,0 +1,4 @@
+source/frames/
+downloads/*.zip
+__pycache__/
+*.pyc

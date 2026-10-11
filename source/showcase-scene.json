@@ -1,0 +1,75 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 21,
+  "scenes": [
+    {
+      "kind": "intro",
+      "seconds": 3,
+      "caption": "Gemini 动态指针 · 17 状态 × 五档尺寸",
+      "start": 0,
+      "end": 3
+    },
+    {
+      "kind": "states",
+      "character": "gemini",
+      "display": "Gemini",
+      "seconds": 10,
+      "caption": "Gemini · 全部 17 状态；绘制姿态加八相位二维微动",
+      "start": 3,
+      "end": 13
+    },
+    {
+      "kind": "sizes",
+      "character": "gemini",
+      "display": "Gemini",
+      "seconds": 5,
+      "caption": "Gemini · 实际像素 32 / 48 / 64 / 128 / 256 px，热点在功能符号上",
+      "start": 13,
+      "end": 18
+    },
+    {
+      "kind": "outro",
+      "seconds": 3,
+      "caption": "社区分享 · 非商业使用 · 原作者与音乐署名见仓库",
+      "start": 18,
+      "end": 21
+    }
+  ],
+  "profile": {
+    "repository": "gemini-cursors",
+    "title": "Gemini",
+    "namespace": "GeminiCursors",
+    "accent": "#af81df",
+    "version": "1.0.0",
+    "default_character": "gemini",
+    "characters": [
+      {
+        "id": "gemini",
+        "display": "Gemini",
+        "reference_page": 4
+      }
+    ]
+  },
+  "palette": {
+    "repository": "gemini-cursors",
+    "accent": "#8A6BF2",
+    "ink": "#1E1B3A",
+    "muted": "#6E6E96",
+    "bg_start": "#F4F2FF",
+    "bg_end": "#DED7FF",
+    "title": "Gemini 星饰光标库",
+    "subtitle": "猫耳猫尾 · 异色瞳",
+    "quote": "紫蓝渐变里缀着星饰，异色瞳孔亮着两种光。",
+    "characters": [
+      {
+        "id": "gemini",
+        "label": "Gemini",
+        "traits": "紫蓝渐变色发，猫耳猫尾，星饰，异色瞳"
+      }
+    ]
+  },
+  "bgm_sha256": "4bc699d0c98e1f150b1f04f576c12b0b963dea638d34b845b087fea35e424936",
+  "music": "MusMus / watson - 放課後アフタースクール"
+}

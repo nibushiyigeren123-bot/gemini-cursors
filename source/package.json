@@ -1,0 +1,15 @@
+{
+  "repository": "gemini-cursors",
+  "title": "Gemini",
+  "namespace": "GeminiCursors",
+  "accent": "#af81df",
+  "version": "1.0.0",
+  "default_character": "gemini",
+  "characters": [
+    {
+      "id": "gemini",
+      "display": "Gemini",
+      "reference_page": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "schemes": 5,
+  "native_setupapi_used": true,
+  "registry_and_Windows_destination_redirected_for_isolation": true,
+  "only_fixture_edit": "reserved DIRID 10 and its placeholders replaced by user DIRID 32768; all installation sections/files/roles unchanged",
+  "actual_Explorer_context_menu_not_automated": true,
+  "active_system_cursors_unchanged": true,
+  "roles_copied_and_registered": 85,
+  "no_executable_hooks": true,
+  "does_not_claim_runtime_size_changes": true,
+  "records": [
+    {
+      "inf": "安装_Gemini_32px.inf",
+      "sha256": "f83645dc4ef6d3a46463be703dca919fcb88c9e3d79d05c460c6dd21f12aa440",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "Gemini AI 32px"
+    },
+    {
+      "inf": "安装_Gemini_48px.inf",
+      "sha256": "462a4578798ba7f07266bc9b79f7c81dcb69c2c4c8ebc43e0495ddf7be116c40",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "Gemini AI 48px"
+    },
+    {
+      "inf": "安装_Gemini_64px.inf",
+      "sha256": "4a1a8826eeec53629afda1c598478b4c774b6ea2d8f2c06f48209b576adf6399",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "Gemini AI 64px"
+    },
+    {
+      "inf": "安装_Gemini_128px.inf",
+      "sha256": "e9df1014a980154183a8c1c1e43ff69cb03120895ff687c31a4a7d70a78368d7",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "Gemini AI 128px"
+    },
+    {
+      "inf": "安装_Gemini_256px.inf",
+      "sha256": "aed0a900df4c672f4c9f07515eea2e4527e54f7517e31f606e267abdab1dfd9c",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "Gemini AI 256px"
+    }
+  ]
+}
