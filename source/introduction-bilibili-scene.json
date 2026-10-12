@@ -1,0 +1,165 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 39,
+  "scenes": [
+    {
+      "kind": "intro",
+      "seconds": 3,
+      "caption": "Gemini 动态指针 · 17 状态 × 五档尺寸",
+      "start": 0,
+      "end": 3
+    },
+    {
+      "kind": "states",
+      "character": "gemini",
+      "display": "Gemini",
+      "seconds": 4,
+      "caption": "Gemini · 全部 17 状态；绘制姿态加八相位二维微动",
+      "start": 3,
+      "end": 7
+    },
+    {
+      "kind": "focus",
+      "character": "gemini",
+      "display": "Gemini",
+      "roles": [
+        "Arrow",
+        "Help",
+        "Crosshair"
+      ],
+      "seconds": 3,
+      "caption": "Gemini · 正常、帮助与精确选择",
+      "start": 7,
+      "end": 10
+    },
+    {
+      "kind": "focus",
+      "character": "gemini",
+      "display": "Gemini",
+      "roles": [
+        "AppStarting",
+        "Wait",
+        "IBeam"
+      ],
+      "seconds": 3,
+      "caption": "Gemini · 后台运行、忙碌与文本选择",
+      "start": 10,
+      "end": 13
+    },
+    {
+      "kind": "focus",
+      "character": "gemini",
+      "display": "Gemini",
+      "roles": [
+        "Hand",
+        "Person",
+        "NWPen"
+      ],
+      "seconds": 3,
+      "caption": "Gemini · 链接、人员与手写选择",
+      "start": 13,
+      "end": 16
+    },
+    {
+      "kind": "focus",
+      "character": "gemini",
+      "display": "Gemini",
+      "roles": [
+        "No",
+        "Pin",
+        "UpArrow"
+      ],
+      "seconds": 3,
+      "caption": "Gemini · 不可用、位置与候选选择",
+      "start": 16,
+      "end": 19
+    },
+    {
+      "kind": "focus",
+      "character": "gemini",
+      "display": "Gemini",
+      "roles": [
+        "SizeNS",
+        "SizeWE"
+      ],
+      "seconds": 3,
+      "caption": "Gemini · 垂直与水平调整",
+      "start": 19,
+      "end": 22
+    },
+    {
+      "kind": "focus",
+      "character": "gemini",
+      "display": "Gemini",
+      "roles": [
+        "SizeNWSE",
+        "SizeNESW",
+        "SizeAll"
+      ],
+      "seconds": 3,
+      "caption": "Gemini · 两种对角调整与移动",
+      "start": 22,
+      "end": 25
+    },
+    {
+      "kind": "sizes",
+      "character": "gemini",
+      "display": "Gemini",
+      "seconds": 5,
+      "caption": "Gemini · 实际像素 32 / 48 / 64 / 128 / 256 px，热点在功能符号上",
+      "start": 25,
+      "end": 30
+    },
+    {
+      "kind": "install",
+      "seconds": 6,
+      "caption": "安装方法 · 完整解压 → 选择角色与尺寸 → 可选开启尺寸保持",
+      "start": 30,
+      "end": 36
+    },
+    {
+      "kind": "outro",
+      "seconds": 3,
+      "caption": "社区分享 · 非商业使用 · 仓库与下载地址见简介",
+      "start": 36,
+      "end": 39
+    }
+  ],
+  "profile": {
+    "repository": "gemini-cursors",
+    "title": "Gemini",
+    "namespace": "GeminiCursors",
+    "accent": "#af81df",
+    "version": "1.0.0",
+    "default_character": "gemini",
+    "characters": [
+      {
+        "id": "gemini",
+        "display": "Gemini",
+        "reference_page": 4
+      }
+    ]
+  },
+  "palette": {
+    "repository": "gemini-cursors",
+    "accent": "#8A6BF2",
+    "ink": "#1E1B3A",
+    "muted": "#6E6E96",
+    "bg_start": "#F4F2FF",
+    "bg_end": "#DED7FF",
+    "title": "Gemini 星饰光标库",
+    "subtitle": "猫耳猫尾 · 异色瞳",
+    "quote": "紫蓝渐变里缀着星饰，异色瞳孔亮着两种光。",
+    "characters": [
+      {
+        "id": "gemini",
+        "label": "Gemini",
+        "traits": "紫蓝渐变色发，猫耳猫尾，星饰，异色瞳"
+      }
+    ]
+  },
+  "bgm_sha256": "4bc699d0c98e1f150b1f04f576c12b0b963dea638d34b845b087fea35e424936",
+  "music": "MusMus / watson - 放課後アフタースクール"
+}

@@ -39,3 +39,9 @@ DS 提供已获用户认可的海报版式，并为本轮各公司提供配色�
 ## 验证
 
 Windows User32 逐 ANI 加载、热点与八帧绘制对照通过；SetupAPI 隔离安装核对所有 INF 及方案路径；隔离测试检查安装、恢复和失败回滚；C# 保持器角色识别进行了真实编译测试。回执见 `validation.json`、`inf-installation-validation.json` 与 `verification/`。
+
+## B站介绍视频与文案
+
+[完整介绍视频](previews/introduction-bilibili.mp4) · [标题、简介、时间目录、标签和置顶评论](B站投稿文案.md)
+
+视频分别展示角色、全部 17 状态、分组大图、五档尺寸与安装方法；提供 SRT 字幕，配乐及角色署名见投稿文案。
