@@ -2,3 +2,5 @@ source/frames/
 downloads/*.zip
 __pycache__/
 *.pyc
+/source/frames/
+/large-arrow/source/frames/

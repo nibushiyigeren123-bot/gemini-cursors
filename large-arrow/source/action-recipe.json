@@ -1,0 +1,34 @@
+{
+  "motion": "9 illustrated poses with 8-phase breathing, slight tilt, sway and jump offset",
+  "hand_drawn_cycle": false,
+  "role_pose": {
+    "Arrow": "idle",
+    "Help": "review",
+    "AppStarting": "waiting",
+    "Wait": "working",
+    "Crosshair": "review",
+    "IBeam": "working",
+    "NWPen": "working",
+    "No": "failed",
+    "SizeNS": "jumping",
+    "SizeWE": "walking-right",
+    "SizeNWSE": "walking-right",
+    "SizeNESW": "walking-left",
+    "SizeAll": "walking-right",
+    "UpArrow": "jumping",
+    "Hand": "waving",
+    "Pin": "waiting",
+    "Person": "waving"
+  },
+  "sizes": [
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "full_body_max": 224,
+  "symbol_max": 62,
+  "frames_per_state": 8,
+  "raw_sources_preserved": true
+}

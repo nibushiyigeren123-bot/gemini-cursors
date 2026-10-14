@@ -1,0 +1,28 @@
+{
+  "repository": "gemini-cursors",
+  "title": "Gemini 放大指针版",
+  "namespace": "GeminiCursorsLargeArrow",
+  "accent": "#af81df",
+  "version": "1.1.0",
+  "default_character": "gemini",
+  "characters": [
+    {
+      "id": "gemini",
+      "display": "Gemini",
+      "reference_page": 4
+    }
+  ],
+  "keeper_runtime_version": "1.1.0",
+  "edition": "large-arrow",
+  "loader": "CreateIconFromResourceEx for ANI",
+  "installation_slot_version": "1.0.0",
+  "actual_canvas_sizes": [
+    32,
+    48,
+    64,
+    72,
+    128,
+    256
+  ],
+  "default_native_size": 72
+}
