@@ -1,0 +1,79 @@
+{
+  "base_canvas": 72,
+  "symbol_origin": [
+    2,
+    2
+  ],
+  "character_origins": {
+    "gemini": {
+      "Arrow": [
+        12,
+        14
+      ],
+      "Help": [
+        10,
+        13
+      ],
+      "AppStarting": [
+        11,
+        13
+      ],
+      "Wait": [
+        15,
+        16
+      ],
+      "Crosshair": [
+        13,
+        16
+      ],
+      "IBeam": [
+        10,
+        13
+      ],
+      "NWPen": [
+        10,
+        13
+      ],
+      "No": [
+        16,
+        16
+      ],
+      "SizeNS": [
+        8,
+        15
+      ],
+      "SizeWE": [
+        9,
+        10
+      ],
+      "SizeNWSE": [
+        16,
+        18
+      ],
+      "SizeNESW": [
+        11,
+        13
+      ],
+      "SizeAll": [
+        12,
+        15
+      ],
+      "UpArrow": [
+        15,
+        13
+      ],
+      "Hand": [
+        15,
+        17
+      ],
+      "Pin": [
+        11,
+        13
+      ],
+      "Person": [
+        16,
+        18
+      ]
+    }
+  }
+}

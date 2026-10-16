@@ -1,7 +1,7 @@
 ﻿[CmdletBinding()]
 param(
  [ValidateSet('all','gemini')][string]$Character='all',
- [ValidateSet(32,48,64,72,128,256)][int]$Size=72,
+ [ValidateSet(32,48,64,72,96,128,256)][int]$Size=72,
  [switch]$Apply,[switch]$Restore,[switch]$VerifyOnly,[switch]$RegisterOnly
 )
 $ErrorActionPreference='Stop'
@@ -18,7 +18,13 @@ foreach($entry in $manifest){
 }
 if(([int][bool]$Restore+[int][bool]$VerifyOnly+[int][bool]$RegisterOnly) -gt 1 -or ($Apply -and ($Restore -or $VerifyOnly -or $RegisterOnly))){throw 'Choose installation, RegisterOnly, Restore, or VerifyOnly separately.'}
 if($Character -ne 'all' -and $Character -notin $characters){throw "This package does not contain $Character."}
-if($VerifyOnly){Write-Output "Verified $($manifest.Count) cursor files. No installation changes.";return}
+if($VerifyOnly){
+ foreach($entry in $manifest){
+  $file=Join-Path $packageRoot $entry.file
+  if(-not $entry.sha256 -or (Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash -ne $entry.sha256){throw "Package checksum mismatch: $file"}
+ }
+ Write-Output "Verified SHA256 for $($manifest.Count) packaged cursor files. No installation changes.";return
+}
 # The ordinary right-click / no-argument entry point installs and applies 64px.
 # RegisterOnly is the explicit opt-in for installing schemes without changing cursors.
 if(-not $Restore -and -not $RegisterOnly){
@@ -30,7 +36,7 @@ if(-not $Restore -and -not $RegisterOnly){
    try{
     $previousScheme=[string]$selectionKey.GetValue('')
     foreach($candidate in $characters){
-     if($previousScheme -match ('^'+[regex]::Escape($displayNames[$candidate])+' LargeArrow (32|48|64|72|128|256)px$')){$Character=$candidate;break}
+     if($previousScheme -match ('^'+[regex]::Escape($displayNames[$candidate])+' LargeArrow (32|48|64|72|96|128|256)px$')){$Character=$candidate;break}
     }
    }finally{$selectionKey.Close()}
   }
@@ -100,6 +106,7 @@ function Restore-MintSavedValues($values){
  $reg=[Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors',$true)
  try{
   foreach($entry in $values){
+   if($entry.name -notin (@('')+$roles+@('Scheme Source'))){continue}
    if($entry.exists){$kind=[System.Enum]::Parse([Microsoft.Win32.RegistryValueKind],$entry.kind);$reg.SetValue($entry.name,$entry.value,$kind)}
    else{$reg.DeleteValue($entry.name,$false)}
   }
@@ -115,15 +122,25 @@ if($Restore){
  Write-Output "Restored settings saved in $($backups[0].Name)";return
 }
 [void](New-Item -ItemType Directory -Path $destination -Force)
-foreach($entry in $manifest){
+$manifestDigest=(Get-FileHash -LiteralPath (Join-Path $packageRoot 'source\cursor_manifest.json') -Algorithm SHA256).Hash
+$stampFile=Join-Path $destination 'asset-manifest.sha256'
+$priorDigest=if(Test-Path -LiteralPath $stampFile){[IO.File]::ReadAllText($stampFile,[Text.Encoding]::ASCII)}else{''}
+$fullSync=$priorDigest -ne $manifestDigest
+$copyEntries=if($fullSync -or -not $Apply){@($manifest)}else{@($manifest | Where-Object { $_.character -eq $Character -and $_.size -eq $Size })}
+foreach($entry in $copyEntries){
+ $sourceFile=Join-Path $packageRoot $entry.file
+ $sourceHash=(Get-FileHash -LiteralPath $sourceFile -Algorithm SHA256).Hash
+ if($entry.sha256 -and $sourceHash -ne $entry.sha256){throw "Package checksum mismatch: $sourceFile"}
  $target=Join-Path $destination $entry.file
+ if((Test-Path -LiteralPath $target) -and (Get-FileHash -LiteralPath $target -Algorithm SHA256).Hash -eq $sourceHash){continue}
  [void](New-Item -ItemType Directory -Path (Split-Path -Parent $target) -Force)
- Copy-Item -LiteralPath (Join-Path $packageRoot $entry.file) -Destination $target -Force
- if((Get-FileHash -LiteralPath $target).Hash -ne (Get-FileHash -LiteralPath (Join-Path $packageRoot $entry.file)).Hash){throw "Copy mismatch: $target"}
+ Copy-Item -LiteralPath $sourceFile -Destination $target -Force
+ if((Get-FileHash -LiteralPath $target -Algorithm SHA256).Hash -ne $sourceHash){throw "Copy mismatch: $target"}
 }
+if($fullSync){[IO.File]::WriteAllText($stampFile,$manifestDigest,[Text.Encoding]::ASCII)}
 $schemeKey=Join-Path $cursorKey 'Schemes'
 if(-not(Test-Path -LiteralPath $schemeKey)){[void](New-Item -Path $schemeKey)}
-foreach($c in $characters){foreach($pixels in @(32,48,64,72,128,256)){
+foreach($c in $characters){foreach($pixels in @(32,48,64,72,96,128,256)){
  $entries=@($manifest | Where-Object { $_.character -eq $c -and $_.size -eq $pixels })
  if($entries.Count -ne 17){throw "Incomplete scheme: $c $pixels"}
  $paths=foreach($role in $roles){$e=$entries | Where-Object role -eq $role;Join-Path $destination $e.file}
@@ -134,7 +151,7 @@ if($Apply){
  try{
  $reg=[Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors',$true)
  try{
-  $saved=foreach($name in @('')+$roles+@('Scheme Source','CursorBaseSize')){
+  $saved=foreach($name in @('')+$roles+@('Scheme Source')){
    $exists=$name -in $reg.GetValueNames()
    [pscustomobject]@{name=$name;exists=$exists;value=if($exists){$reg.GetValue($name,$null,[Microsoft.Win32.RegistryValueOptions]::DoNotExpandEnvironmentNames)}else{$null};kind=if($exists){$reg.GetValueKind($name).ToString()}else{$null}}
   }
@@ -148,17 +165,17 @@ if($Apply){
   $display=$displayNames[$Character]
   $reg.SetValue('',"$display LargeArrow $($Size)px",[Microsoft.Win32.RegistryValueKind]::String)
   $reg.SetValue('Scheme Source',1,[Microsoft.Win32.RegistryValueKind]::DWord)
-  $reg.SetValue('CursorBaseSize',$Size,[Microsoft.Win32.RegistryValueKind]::DWord)
  }finally{$reg.Close()}
  if(-not[GeminiCursorsLargeArrowNative]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,0)){throw "Windows refresh failed. Backup: $backup"}
  $systemIds=@{Arrow=32512;Help=32651;AppStarting=32650;Wait=32514;Crosshair=32515;IBeam=32513;NWPen=32631;No=32648;SizeNS=32645;SizeWE=32644;SizeNWSE=32642;SizeNESW=32643;SizeAll=32646;UpArrow=32516;Hand=32649;Pin=32671;Person=32672}
  foreach($role in $roles){
   $entry=$manifest | Where-Object { $_.character -eq $Character -and $_.size -eq $Size -and $_.role -eq $role }
-  if(-not[GeminiCursorsLargeArrowNative]::ApplyExactSize((Join-Path $destination $entry.file),$systemIds[$role],$Size)){
+  $renderSize=if($entry.PSObject.Properties.Name -contains 'render_size'){[int]$entry.render_size}else{$Size}
+  if(-not[GeminiCursorsLargeArrowNative]::ApplyExactSize((Join-Path $destination $entry.file),$systemIds[$role],$renderSize)){
    throw "Could not apply exact cursor size for $role. Backup: $backup"
   }
-  if(-not[GeminiCursorsLargeArrowNative]::HasExactSize($systemIds[$role],$Size)){
-   Write-Warning "Cursor bitmap size could not confirm $Size px for $role. Installation kept; actual display size depends on Windows. Backup: $backup"
+  if(-not[GeminiCursorsLargeArrowNative]::HasExactSize($systemIds[$role],$renderSize)){
+   Write-Warning "Cursor bitmap size could not confirm $renderSize px for $role. Installation kept; actual display size depends on Windows. Backup: $backup"
   }
  }
  }catch{

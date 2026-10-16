@@ -3,7 +3,7 @@
   "title": "Gemini",
   "namespace": "GeminiCursors",
   "accent": "#af81df",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "default_character": "gemini",
   "characters": [
     {
@@ -12,8 +12,29 @@
       "reference_page": 4
     }
   ],
-  "keeper_runtime_version": "1.1.0",
+  "keeper_runtime_version": "1.2.0",
   "edition": "original",
   "loader": "CreateIconFromResourceEx for ANI",
-  "installation_slot_version": "1.0.0"
+  "installation_slot_version": "1.0.0",
+  "baseline_sizes": [
+    32,
+    48,
+    64,
+    96,
+    128,
+    256
+  ],
+  "render_sizes": {
+    "32": 32,
+    "48": 48,
+    "64": 64,
+    "96": 96,
+    "128": 128,
+    "256": 256
+  },
+  "display_names": {
+    "gemini": "Gemini"
+  },
+  "scheme_suffix": " AI ",
+  "keeper_run_name": "GeminiCursorsKeeper"
 }

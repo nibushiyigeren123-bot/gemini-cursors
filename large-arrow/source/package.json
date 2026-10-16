@@ -3,7 +3,7 @@
   "title": "Gemini 放大指针版",
   "namespace": "GeminiCursorsLargeArrow",
   "accent": "#af81df",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "default_character": "gemini",
   "characters": [
     {
@@ -12,7 +12,7 @@
       "reference_page": 4
     }
   ],
-  "keeper_runtime_version": "1.1.0",
+  "keeper_runtime_version": "1.2.0",
   "edition": "large-arrow",
   "loader": "CreateIconFromResourceEx for ANI",
   "installation_slot_version": "1.0.0",
@@ -24,5 +24,29 @@
     128,
     256
   ],
-  "default_native_size": 72
+  "default_native_size": 72,
+  "baseline_sizes": [
+    32,
+    48,
+    64,
+    72,
+    96,
+    128,
+    256
+  ],
+  "render_sizes": {
+    "32": 64,
+    "48": 64,
+    "64": 96,
+    "72": 96,
+    "96": 128,
+    "128": 192,
+    "256": 352
+  },
+  "display_names": {
+    "gemini": "Gemini"
+  },
+  "scheme_suffix": " LargeArrow ",
+  "keeper_run_name": "GeminiCursorsLargeArrowKeeper",
+  "keeper_object_prefix": "GeminiCursorsLargeArrowKeeper"
 }

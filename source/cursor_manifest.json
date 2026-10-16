@@ -12,247 +12,10 @@
     "frames": 8,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/gemini/32/Help.ani",
-    "hotspot": [
-      0,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/gemini/32/AppStarting.ani",
-    "hotspot": [
-      0,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/gemini/32/Wait.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/gemini/32/Crosshair.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/gemini/32/IBeam.ani",
-    "hotspot": [
-      2,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/gemini/32/NWPen.ani",
-    "hotspot": [
-      1,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/gemini/32/No.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/gemini/32/SizeNS.ani",
-    "hotspot": [
-      2,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/gemini/32/SizeWE.ani",
-    "hotspot": [
-      4,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/gemini/32/SizeNWSE.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/gemini/32/SizeNESW.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-left"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/gemini/32/SizeAll.ani",
-    "hotspot": [
-      4,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/gemini/32/UpArrow.ani",
-    "hotspot": [
-      4,
-      0
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/gemini/32/Hand.ani",
-    "hotspot": [
-      3,
-      0
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/gemini/32/Pin.ani",
-    "hotspot": [
-      3,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "gemini",
-    "size": 32,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/gemini/32/Person.ani",
-    "hotspot": [
-      4,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "69273447885d9befa6a60b59004705ba2207d7d8d6bad040cc171e42de087be7"
   },
   {
     "character": "gemini",
@@ -267,247 +30,10 @@
     "frames": 8,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/gemini/48/Help.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/gemini/48/AppStarting.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/gemini/48/Wait.ani",
-    "hotspot": [
-      6,
-      6
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/gemini/48/Crosshair.ani",
-    "hotspot": [
-      6,
-      6
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/gemini/48/IBeam.ani",
-    "hotspot": [
-      3,
-      6
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/gemini/48/NWPen.ani",
-    "hotspot": [
-      1,
-      12
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/gemini/48/No.ani",
-    "hotspot": [
-      6,
-      6
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/gemini/48/SizeNS.ani",
-    "hotspot": [
-      3,
-      6
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/gemini/48/SizeWE.ani",
-    "hotspot": [
-      6,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/gemini/48/SizeNWSE.ani",
-    "hotspot": [
-      6,
-      6
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/gemini/48/SizeNESW.ani",
-    "hotspot": [
-      6,
-      6
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-left"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/gemini/48/SizeAll.ani",
-    "hotspot": [
-      6,
-      6
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/gemini/48/UpArrow.ani",
-    "hotspot": [
-      5,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/gemini/48/Hand.ani",
-    "hotspot": [
-      4,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/gemini/48/Pin.ani",
-    "hotspot": [
-      5,
-      12
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "gemini",
-    "size": 48,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/gemini/48/Person.ani",
-    "hotspot": [
-      6,
-      3
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "af13b6564cbf8efdf4031f550734730b07ebfb966b5a05e0f468c9b0c882619f"
   },
   {
     "character": "gemini",
@@ -522,247 +48,28 @@
     "frames": 8,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
+    "action": "idle",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "b20ec95709189a0a894be1fe6b595670ea5540a45a0daef309f5d1c3e2b98651"
   },
   {
     "character": "gemini",
-    "size": 64,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/gemini/64/Help.ani",
+    "size": 96,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/gemini/96/Arrow.ani",
     "hotspot": [
       1,
-      1
+      2
     ],
     "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/gemini/64/AppStarting.ani",
-    "hotspot": [
-      1,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/gemini/64/Wait.ani",
-    "hotspot": [
-      8,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/gemini/64/Crosshair.ani",
-    "hotspot": [
-      8,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/gemini/64/IBeam.ani",
-    "hotspot": [
-      4,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/gemini/64/NWPen.ani",
-    "hotspot": [
-      1,
-      16
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/gemini/64/No.ani",
-    "hotspot": [
-      8,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/gemini/64/SizeNS.ani",
-    "hotspot": [
-      3,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/gemini/64/SizeWE.ani",
-    "hotspot": [
-      8,
-      3
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/gemini/64/SizeNWSE.ani",
-    "hotspot": [
-      8,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/gemini/64/SizeNESW.ani",
-    "hotspot": [
-      8,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-left"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/gemini/64/SizeAll.ani",
-    "hotspot": [
-      8,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/gemini/64/UpArrow.ani",
-    "hotspot": [
-      7,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/gemini/64/Hand.ani",
-    "hotspot": [
-      5,
-      1
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/gemini/64/Pin.ani",
-    "hotspot": [
-      7,
-      16
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "gemini",
-    "size": 64,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/gemini/64/Person.ani",
-    "hotspot": [
-      8,
-      4
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "0ce1d3814d95813183837a23d6ad2686dbfb055ab0c550a2be6d0fcb8a06709c"
   },
   {
     "character": "gemini",
@@ -777,247 +84,10 @@
     "frames": 8,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "Help",
-    "label": "帮助选择",
-    "file": "cursors/gemini/128/Help.ani",
-    "hotspot": [
-      2,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "AppStarting",
-    "label": "后台运行",
-    "file": "cursors/gemini/128/AppStarting.ani",
-    "hotspot": [
-      2,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "Wait",
-    "label": "忙碌",
-    "file": "cursors/gemini/128/Wait.ani",
-    "hotspot": [
-      17,
-      17
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "Crosshair",
-    "label": "精确选择",
-    "file": "cursors/gemini/128/Crosshair.ani",
-    "hotspot": [
-      17,
-      17
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "review"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "IBeam",
-    "label": "文本选择",
-    "file": "cursors/gemini/128/IBeam.ani",
-    "hotspot": [
-      8,
-      17
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "NWPen",
-    "label": "手写",
-    "file": "cursors/gemini/128/NWPen.ani",
-    "hotspot": [
-      2,
-      32
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "working"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "No",
-    "label": "不可用",
-    "file": "cursors/gemini/128/No.ani",
-    "hotspot": [
-      17,
-      17
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "failed"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "SizeNS",
-    "label": "垂直调整",
-    "file": "cursors/gemini/128/SizeNS.ani",
-    "hotspot": [
-      7,
-      17
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "SizeWE",
-    "label": "水平调整",
-    "file": "cursors/gemini/128/SizeWE.ani",
-    "hotspot": [
-      17,
-      7
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "SizeNWSE",
-    "label": "对角调整1",
-    "file": "cursors/gemini/128/SizeNWSE.ani",
-    "hotspot": [
-      17,
-      17
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "SizeNESW",
-    "label": "对角调整2",
-    "file": "cursors/gemini/128/SizeNESW.ani",
-    "hotspot": [
-      17,
-      17
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-left"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "SizeAll",
-    "label": "移动",
-    "file": "cursors/gemini/128/SizeAll.ani",
-    "hotspot": [
-      17,
-      17
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "walking-right"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "UpArrow",
-    "label": "候选选择",
-    "file": "cursors/gemini/128/UpArrow.ani",
-    "hotspot": [
-      14,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "jumping"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "Hand",
-    "label": "链接选择",
-    "file": "cursors/gemini/128/Hand.ani",
-    "hotspot": [
-      10,
-      2
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "Pin",
-    "label": "位置选择",
-    "file": "cursors/gemini/128/Pin.ani",
-    "hotspot": [
-      13,
-      32
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waiting"
-  },
-  {
-    "character": "gemini",
-    "size": 128,
-    "role": "Person",
-    "label": "人员选择",
-    "file": "cursors/gemini/128/Person.ani",
-    "hotspot": [
-      15,
-      8
-    ],
-    "frames": 8,
-    "jiffies": 8,
-    "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "idle",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "1c0c06696cda60d87932c45b2d013a5a6840a7abdd627cb40fbd51651091db42"
   },
   {
     "character": "gemini",
@@ -1032,7 +102,100 @@
     "frames": 8,
     "jiffies": 12,
     "frame_ms": 200.0,
-    "action": "idle"
+    "action": "idle",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "809ec09668e3db6f892a7a57889cff222a604cda467b14c179d65b1fd009ec8f"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/gemini/32/Help.ani",
+    "hotspot": [
+      0,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "6a470cbff6eb2464ca4afd6579b596730f92de4f426c1187ae51783c49453238"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/gemini/48/Help.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "d8a8a27b26943b69a09ecab2b98632c49660480c715dee9961f35b05beee7a54"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/gemini/64/Help.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "95aee2db40fd4b02132e76075c86fc7e270dfc130dd14b9cbf749b4ffb98ea44"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/gemini/96/Help.ani",
+    "hotspot": [
+      1,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "13f506459c4988b02a67c4e1c2d73b33c5ca0005edf39ca7368b568ffe5f8e9a"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/gemini/128/Help.ani",
+    "hotspot": [
+      2,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "028471657e8383c9df4871d6319bd1bff7744fa058bf28a34b9338e172023213"
   },
   {
     "character": "gemini",
@@ -1047,7 +210,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "review"
+    "action": "review",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "18da143733f8a385604bff8a85467cdf053bb0734f269853db9a8149e34c8ede"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/gemini/32/AppStarting.ani",
+    "hotspot": [
+      0,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "09a6e4e3feb428ce7bc99bccb3d6410e0ddfece8f1e457118b8b4a91f51382cc"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/gemini/48/AppStarting.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "001996400fad2162c01ae29fe1c56f78db9544521535b6c738360b5205b41530"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/gemini/64/AppStarting.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "6c5c7e3a73ceb479da1a2f327888349feb3897be33419b55f42f0adae4ef287e"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/gemini/96/AppStarting.ani",
+    "hotspot": [
+      1,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "7ad19be9e33cc988ca51f86815c8b5263c3d27ff5688c4d56404921be1433065"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/gemini/128/AppStarting.ani",
+    "hotspot": [
+      2,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "4126345c3728e247c581458a516bd465a1b0ed9554a520d94138286d9f35c85d"
   },
   {
     "character": "gemini",
@@ -1062,7 +318,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waiting"
+    "action": "waiting",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "deaa306a768e3fdc943f823b3d1ec38f14441701af01c6bfed9972d3d856b99d"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/gemini/32/Wait.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "8d69d1925c4f66fc740f93c206d9d251ec87f344621aafce0e5433e277b033c1"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/gemini/48/Wait.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "4df7408570f2c491aa47b1793eab62f3f13f16005761d30d8f89c39bafbb976c"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/gemini/64/Wait.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "54d1e17c74b2a6cb731f2d4edd4b33cb7eac2d6728dea71f4b04e4d6e424a47e"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/gemini/96/Wait.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "48532e36a61862c394e80a04d95999c95cf9b9c751fbb53cb3df3f09cd974966"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/gemini/128/Wait.ani",
+    "hotspot": [
+      17,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "4ad5b4ab0a07ad04785c122feef6bcbc3b31a5e48ee124e854ea4133d4f6d903"
   },
   {
     "character": "gemini",
@@ -1077,7 +426,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "working"
+    "action": "working",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "7e0416bfa4a4b44e90f037f574ea20f8251bc8b08c8d4cbfbd0710babb984698"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/gemini/32/Crosshair.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "29686f1f5275ef5013eb4a8e0503b5179ec0b1d28be728046646a8fe7579f31c"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/gemini/48/Crosshair.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "5ebd29c03c20cc3622e6c9b78c2bbeb9f1ce0ba981213eec0ee758f7d577bab7"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/gemini/64/Crosshair.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "07d58a8561cff3892b5be7fa9b6302001bbc9f085da8ebc763eeaff1c858567f"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/gemini/96/Crosshair.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "372fc5bc0d69012a3cc8b7411cd6baee2fadd2e6093c4a6544967e30636a0182"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/gemini/128/Crosshair.ani",
+    "hotspot": [
+      17,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "505e4b71e1e8f8ab89713a362de5405ddc568479911e29a2ec19ad1ac72e2ec7"
   },
   {
     "character": "gemini",
@@ -1092,7 +534,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "review"
+    "action": "review",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "e08e4176c2e6a7a478a5a53c579363ad7f4e560a5f689803bd44a4270d530eaa"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/gemini/32/IBeam.ani",
+    "hotspot": [
+      2,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "1ed1a357fac4021ddc748327c864a099322dbf25eb63fcaabec68530903e6e88"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/gemini/48/IBeam.ani",
+    "hotspot": [
+      3,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "36c1fb8b12ef27ff19e671750f251ff0880bdf74e434e9b2431dd38af05cd907"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/gemini/64/IBeam.ani",
+    "hotspot": [
+      4,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "7b0cb986fec74ba58c3dfc9f76be7469032c66be3f30db02d766c526807e03c8"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/gemini/96/IBeam.ani",
+    "hotspot": [
+      6,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "6705600320dadd744378fde78cbe644411ea1e1cc114240236b6c6423238e944"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/gemini/128/IBeam.ani",
+    "hotspot": [
+      8,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "35ac1be5b9131b1c7301077a1037eb04ef62c165673ff01ce4032bccfe5f3423"
   },
   {
     "character": "gemini",
@@ -1107,7 +642,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "working"
+    "action": "working",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "9ed27534c8889da5e8e98127c198525cfe4a47edfecc099123ace759caad0854"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/gemini/32/NWPen.ani",
+    "hotspot": [
+      1,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "e240645d9df5c964c81b44282e1e9933cd6d3f31f71f3d77c0d7e8e20cf8b5bd"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/gemini/48/NWPen.ani",
+    "hotspot": [
+      1,
+      12
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "1b5ba0bb28fd433fb74e075cb51c52af59f5ed9d8b0c3d89afa061d4a0884305"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/gemini/64/NWPen.ani",
+    "hotspot": [
+      1,
+      16
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "a7622a27c5bf076775463b67c111a622ffb1afe9c59a6a28774689e90c0f05a8"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/gemini/96/NWPen.ani",
+    "hotspot": [
+      2,
+      24
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "c12ed0def29c453132953acf8ad0351fddac6d985b4dc2de7825fde89751cf4d"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/gemini/128/NWPen.ani",
+    "hotspot": [
+      2,
+      32
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "16d51b1e3c732fe27eaf403513d361409c99835bd44b6dc0c5bf437437241bb9"
   },
   {
     "character": "gemini",
@@ -1122,7 +750,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "working"
+    "action": "working",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "190acac03f89ddbaa4f4ccc9ec72151f3b398b5320118e2f05a33cbb0f48492f"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/gemini/32/No.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "dac3ed069abc6e631ba3f52bff9bfaf59196b7c9c4be297c8e6a9dd7df3920f0"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/gemini/48/No.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "fabb865846e950806754397f55e530e86687d7a74ec0d57f28f5a491bd6b9bb3"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/gemini/64/No.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "e875a9ec76b59ed403dc2f2f16dc54384974b42528693e50aa38c20732c9a6f3"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/gemini/96/No.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "a9a4c3fc9c71ad380a5294df0e9eb17429e6c54519a6ef8f8c2cd7e6122326b7"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/gemini/128/No.ani",
+    "hotspot": [
+      17,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "d4e7d9edf9c2376209ff966e5bf2c56d033e9dd44e0c81e59b0f71f91a427533"
   },
   {
     "character": "gemini",
@@ -1137,7 +858,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "failed"
+    "action": "failed",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "1ed90c0db3abb789215fff8b1eab635b44f49591ef9c5288a4d22cc3dd020bac"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/gemini/32/SizeNS.ani",
+    "hotspot": [
+      2,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "7bbbc5cb794dc00a7025ab642e701b9139999376927e01315ca1d6dc013604c3"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/gemini/48/SizeNS.ani",
+    "hotspot": [
+      3,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "317efcc2601dcae3f2910a400d3dfd5f98f163101ef89a4b31a09d8a392025dc"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/gemini/64/SizeNS.ani",
+    "hotspot": [
+      3,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "43be5c27f0374b5edcca43c924e231acb4e57a285485f3188d80faed8220d6f0"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/gemini/96/SizeNS.ani",
+    "hotspot": [
+      5,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "61ecf34ee38756cda79f91a69810be0868a26618e2cd7c34cc07db1df82c6286"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/gemini/128/SizeNS.ani",
+    "hotspot": [
+      7,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "3bff3603b699e5b3b0b6ac0e12e4876fabd32eed27411fbe894e7d0c1ccff6cd"
   },
   {
     "character": "gemini",
@@ -1152,7 +966,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "jumping"
+    "action": "jumping",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "43d80eb68eed8dc68b1c9e770b172f5cd49238d6554e0e170dfc9aa4500b4588"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/gemini/32/SizeWE.ani",
+    "hotspot": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "e2bda30ea9b0eba69114638089b09030d5938de2de5b1350d93f34f71a49715e"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/gemini/48/SizeWE.ani",
+    "hotspot": [
+      6,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "eeb1d1cd88db4c62b893c114b23d7a84211d5d5e587406ef2ff9695b8fd08a09"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/gemini/64/SizeWE.ani",
+    "hotspot": [
+      8,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "e5edbd2a6456fde09db5bfa7cefc25777f3a3c334efe68cc7e48710618e49ced"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/gemini/96/SizeWE.ani",
+    "hotspot": [
+      13,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "636d2b070049115e384ae195154ae404425584ab27ea5294742dbacef67c1f74"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/gemini/128/SizeWE.ani",
+    "hotspot": [
+      17,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "41d8cc4cc2f84ae6c6de3f51efb2f53e10055f22606e3a91d39a0215daa5286a"
   },
   {
     "character": "gemini",
@@ -1167,7 +1074,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "walking-right"
+    "action": "walking-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "c5b636be132a226d6d4a837f542b5b73bc05690de3021108c262827cc32500f6"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/gemini/32/SizeNWSE.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "0f3b73985f163b4062dc956ce64147606b055fd3590a88a206f7fb8cabf04fd8"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/gemini/48/SizeNWSE.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "2e794dce62938a2d024a4a35a8114ee84c7c1cb9dcb4fee289fa8781a11e4058"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/gemini/64/SizeNWSE.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "ab7aa7b612eda6d829270fdf75ea129ec07844a10317c077e00711f7abd605b5"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/gemini/96/SizeNWSE.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "513754dc1bea8431cf37e3b2536aa30c7d12dc8918261c95ede5098cd5f37ae8"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/gemini/128/SizeNWSE.ani",
+    "hotspot": [
+      17,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "fcc0808a07c18811b80fab2aea88dad352600df5741065ab033172946216e389"
   },
   {
     "character": "gemini",
@@ -1182,7 +1182,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "walking-right"
+    "action": "walking-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "a7c26c03f5b43ea0d70915fdf3fa99f835d26610fc903ae00ec6fed6f89742dc"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/gemini/32/SizeNESW.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-left",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "4c1459aa04b6affc931f8d0d0e9d09e7f2fc6aa65b278acb5458feb511c116ce"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/gemini/48/SizeNESW.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-left",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "104309c9b0ff417b9054bc41af2456e41bc52e528219572a9d8628c01f1b78dc"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/gemini/64/SizeNESW.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-left",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "c5000798c5c0bf9ca40544e2582cfd28e8b698e6a85890bd16de8a41b8a6743e"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/gemini/96/SizeNESW.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-left",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "c6ff6e8f3840526453cd9452143d6474928d5c3ea94e83b4627c30e3bc5fb60b"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/gemini/128/SizeNESW.ani",
+    "hotspot": [
+      17,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-left",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "42b39e7b9fe23a821fc65e0a4be2c464a2c9d7ea8e2a2366631c9f1562dc412b"
   },
   {
     "character": "gemini",
@@ -1197,7 +1290,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "walking-left"
+    "action": "walking-left",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "8b5b077f297f707135904c66a93f357d5b67386e26d425723eda4cc917f3d0d4"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/gemini/32/SizeAll.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "ad06a371f9eb712c77eb9af5bd8c0b58475edcf9302e4ecace6e89e84979b128"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/gemini/48/SizeAll.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "9f0f120ee286941423652c926412827ead01cf303367dfd7c039361d4a09e6e6"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/gemini/64/SizeAll.ani",
+    "hotspot": [
+      8,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "e346c6e54651199bf1d322e153042a47ab3c41fe5b310c353cecce63aa5cdee9"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/gemini/96/SizeAll.ani",
+    "hotspot": [
+      13,
+      12
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "24181504feeb01e0bf8af2ab7e608061a4b28fd577d8d8fbeb301830834e06b4"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/gemini/128/SizeAll.ani",
+    "hotspot": [
+      17,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "walking-right",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "6b6098b1bbb2fb1e8fc455a95479db447fd9736b18020a9feff671a91c6c123c"
   },
   {
     "character": "gemini",
@@ -1212,7 +1398,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "walking-right"
+    "action": "walking-right",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "3619ea13c93d20ba7438889ac0d863913e5b4dcfb4c022ccf7c33aee5df97f28"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/gemini/32/UpArrow.ani",
+    "hotspot": [
+      4,
+      0
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "f60c6abb0171c5175e3238a13d524c8cbd984fa67ab8f7a0bfab5df77d76bdd5"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/gemini/48/UpArrow.ani",
+    "hotspot": [
+      5,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "3cf49f566d875da8b8b5e9db1d59c698f4509655230aa53f3d49f80376fdd583"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/gemini/64/UpArrow.ani",
+    "hotspot": [
+      7,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "7de03e4d4d3c76c7825808a954836d3da1d5b526380b2e213dc694f45321bb67"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/gemini/96/UpArrow.ani",
+    "hotspot": [
+      11,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "ee6e754c11208ff4f55245c29348e965eb30189d7a98f54c6c2991f34195f7c4"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/gemini/128/UpArrow.ani",
+    "hotspot": [
+      14,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "99ad153d9926815d26671cacc60c3b4a49ff3ec69fe899aa1c3a3d7b335474af"
   },
   {
     "character": "gemini",
@@ -1227,7 +1506,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "jumping"
+    "action": "jumping",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "b78e1b8dcaa283e6a362c84cbdea07ed93626857efc277e93db67e6b877968aa"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/gemini/32/Hand.ani",
+    "hotspot": [
+      3,
+      0
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "2ba695aaa5f05a9aacef5bd9ec354a87d3c97c5526ff8fdffe1b45c9b69a6c80"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/gemini/48/Hand.ani",
+    "hotspot": [
+      4,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "4d06646bc2b4cdc8fe75efe53db2c2612217557742dd6009bf5d5ee0986baf16"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/gemini/64/Hand.ani",
+    "hotspot": [
+      5,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "10d35d032294bf595bccd1d0c955cb6eeb12942f41ce49c09007bd36eb17bc72"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/gemini/96/Hand.ani",
+    "hotspot": [
+      8,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "94171cb18528632e5e16bad02273b705679f78cde6b56f8abd98c12319672cf1"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/gemini/128/Hand.ani",
+    "hotspot": [
+      10,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "84f4f09c5add6aa46416b8cade41483343734d8e5b575f98318174d2aaab2553"
   },
   {
     "character": "gemini",
@@ -1242,7 +1614,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "waving",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "e14958b814b5c8c81b35caeb37a4ea4b2ec2a70894aa86f34c59c55e3620ab8b"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/gemini/32/Pin.ani",
+    "hotspot": [
+      3,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "3faf94920c0ec9b402442e4e8188631ca3221b5aa6e2dac5391eacd814025b2a"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/gemini/48/Pin.ani",
+    "hotspot": [
+      5,
+      12
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "5fb11e164582be52b809f13fcde7cf5f2273592f1a6a7dd19cbb675c79105243"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/gemini/64/Pin.ani",
+    "hotspot": [
+      7,
+      16
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "486c0b2c3aa290d07c5e2bf9ded458ef0c6da67fb881cc58c811c81f33831402"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/gemini/96/Pin.ani",
+    "hotspot": [
+      10,
+      24
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "ef0c448e6c14904236bb67e13fe1f63c52c322be2a6c3c1c60309024b6ecb993"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/gemini/128/Pin.ani",
+    "hotspot": [
+      13,
+      32
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "db2b26bce0069532a04ed2b244d7a9039c5ba7d29d62bbd2806a5500b8ef8778"
   },
   {
     "character": "gemini",
@@ -1257,7 +1722,100 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waiting"
+    "action": "waiting",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "1316a7fc9452ffe31b12331f0bf744b6467f209bc61604f24804c9835c1d48ad"
+  },
+  {
+    "character": "gemini",
+    "size": 32,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/gemini/32/Person.ani",
+    "hotspot": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 32,
+    "character_reference_size": 32,
+    "sha256": "4086a8350cbf6b4bcf47bf95c1a8f155699a6a05a3ce716969e939244f0e12f3"
+  },
+  {
+    "character": "gemini",
+    "size": 48,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/gemini/48/Person.ani",
+    "hotspot": [
+      6,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 48,
+    "character_reference_size": 48,
+    "sha256": "b7d80ef5b33443b8bdff177e55196f6576d76fe4d6684f522f3d86a170f882ec"
+  },
+  {
+    "character": "gemini",
+    "size": 64,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/gemini/64/Person.ani",
+    "hotspot": [
+      8,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 64,
+    "character_reference_size": 64,
+    "sha256": "283522da7be15d3edb83db8712b309f528e6aca7e733a44a286b9f01bb75ce0f"
+  },
+  {
+    "character": "gemini",
+    "size": 96,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/gemini/96/Person.ani",
+    "hotspot": [
+      12,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 96,
+    "character_reference_size": 96,
+    "sha256": "a1197281650b1166784ee209136d160653107a0570c9d3a05cf178634eb2fb4e"
+  },
+  {
+    "character": "gemini",
+    "size": 128,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/gemini/128/Person.ani",
+    "hotspot": [
+      15,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 128,
+    "sha256": "8aeceac864598bf4e6f563fdb31a97609e2eaf838ef6bf6301dfa170835eebb7"
   },
   {
     "character": "gemini",
@@ -1272,6 +1830,9 @@
     "frames": 8,
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
-    "action": "waving"
+    "action": "waving",
+    "render_size": 256,
+    "character_reference_size": 256,
+    "sha256": "0b5e53add342efef971c4276e4a0c94e4d430442bfbc84dc49b13cf29af82cd8"
   }
 ]
