@@ -1,0 +1,26 @@
+{
+  "version": "v1.3.0",
+  "packages": [
+    {
+      "kind": "non-avoidance",
+      "name": "gemini-cursors-non-avoidance-v1.3.0.zip",
+      "sha256": "ed326b091815256f14a32b0d5a6071fc0dc87097f69631a589d5528a18f71c15",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "profiles": 13,
+      "characters": [
+        "gemini"
+      ]
+    },
+    {
+      "kind": "avoidance",
+      "name": "gemini-cursors-avoidance-v1.3.0.zip",
+      "sha256": "bea0ba144416ef45e1b0b0a1a610666e9860186e2f00dc2a8227542939a9a911",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "profiles": 13,
+      "characters": [
+        "gemini"
+      ]
+    }
+  ],
+  "resources": "Complete editable PNG/ANI assets are included in the corresponding installation ZIP."
+}
