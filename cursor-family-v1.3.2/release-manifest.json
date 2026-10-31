@@ -1,0 +1,54 @@
+{
+  "version": "v1.3.2",
+  "kind": "non-avoidance",
+  "installation": {
+    "name": "gemini-cursors-non-avoidance-v1.3.2.zip",
+    "bytes": 43338180,
+    "sha256": "4865ec309d5dc704ca9eb42907ab17c3b45895fb0d4df97f890e3179e654b6b5",
+    "members": 2039
+  },
+  "editable_source": {
+    "name": "gemini-cursors-non-avoidance-source-v1.3.2.zip",
+    "bytes": 276259,
+    "sha256": "bfeaf5522067e58d7420fa0a8217804536ef7cfd09e51cb0d42832dfb1a3a429",
+    "members": 34,
+    "copied_source_members": 31
+  },
+  "runtime_identity": {
+    "runtime/AICursorFamilyOriginalR1.exe": "48ec1b43be830981062eccf2fecbd25b8ee167b6e797906b8958030bafdf26be",
+    "control.ps1": "ec8dd65c9f3b6ca76d281365a1f1ef3b4f86ba731f30c6f389e5fd3cbc8eeb89",
+    "ControlNative.cs": "462a58b46ca185a2681786f9724f575ce31c4cf187d11b4cffce8dfcab012b36"
+  },
+  "rc1_equivalence": {
+    "version": "v1.3.2",
+    "tested_rc1_zip_name": "gemini-cursors-non-avoidance-v1.3.2-rc1.zip",
+    "tested_rc1_sha256": "23b58bed76954d16b2aece77b0077fc8e07e6ccb23b2880699cf22c79beae3e9",
+    "runtime_identity": {
+      "runtime/AICursorFamilyOriginalR1.exe": "48ec1b43be830981062eccf2fecbd25b8ee167b6e797906b8958030bafdf26be",
+      "control.ps1": "ec8dd65c9f3b6ca76d281365a1f1ef3b4f86ba731f30c6f389e5fd3cbc8eeb89",
+      "ControlNative.cs": "462a58b46ca185a2681786f9724f575ce31c4cf187d11b4cffce8dfcab012b36"
+    },
+    "unchanged_existing_members": 2033,
+    "unchanged_media_members": 1989,
+    "unchanged_profile_manifests": 13,
+    "unchanged_cmd_members": 15,
+    "modified_existing_members": [
+      "README.md",
+      "技术说明.md",
+      "runtime/characters.json",
+      "payload-hashes.json"
+    ],
+    "added_members": [
+      "VALIDATION.md",
+      "release-equivalence.json"
+    ],
+    "deleted_members": [],
+    "configuration_only_difference": "characters.json scheme string replaces v1.3.2-rc1 with v1.3.2; all other fields and profile order unchanged",
+    "qa_basis": "Accepted local RC1 representative VM tests with documented Win11 bootStop boundary; not a new full runtime matrix."
+  },
+  "avoidance": {
+    "updated": false,
+    "version": "v1.3.1",
+    "download_url": "https://github.com/nibushiyigeren123-bot/gemini-cursors/releases/download/v1.3.1/gemini-cursors-avoidance-v1.3.1.zip"
+  }
+}
