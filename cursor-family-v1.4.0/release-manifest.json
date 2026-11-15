@@ -1,0 +1,30 @@
+{
+  "version": "v1.4.0",
+  "kind": "full-avoidance",
+  "runtimeSha256": "0e7a173da8c96ac7e1d21386966e90095b0083e2959c9eba4436406a5a20ff23",
+  "assets": [
+    {
+      "name": "gemini-cursors-full-avoidance-v1.4.0.zip",
+      "bytes": 43360207,
+      "sha256": "7c464acd1a6ae5ee58c52a74e5c51bad30cf83960d373938bd10557b5dee036d"
+    },
+    {
+      "name": "gemini-cursors-full-avoidance-source-v1.4.0.zip",
+      "bytes": 286589,
+      "sha256": "dd9303083827e751fe7be8063f34274f4ab4758ce8b265457071d62b7733c100"
+    },
+    {
+      "name": "VALIDATION.md",
+      "bytes": 2599,
+      "sha256": "95f05bd4982c9293728ee1447c63c4a783632827f79f985e549ab0632970173f"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 223,
+      "sha256": "cafbfe9beb98078a38ec43fbb90ddcf8dda577d7226e27d2f1892253e1d2eee2"
+    }
+  ],
+  "originalCmdInvocationPreserved": true,
+  "cmdWaitingMessageAdded": 13,
+  "originalMediaUnchanged": true
+}

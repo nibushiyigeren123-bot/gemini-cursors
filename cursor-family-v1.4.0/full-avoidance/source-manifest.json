@@ -1,0 +1,43 @@
+{
+  "version": "v1.4.0",
+  "repository": "gemini-cursors",
+  "copied_member_sha256": {
+    "ControlNative.cs": "4e4c6d8a60175340e0b56490d75a8b445a0594a6227f7602dd1bebd6d9d19701",
+    "VALIDATION.md": "95f05bd4982c9293728ee1447c63c4a783632827f79f985e549ab0632970173f",
+    "control.ps1": "53dd0be1faf0e7f1a9a46017d701cfaaea6f38ebd1c734f238938218eee15449",
+    "payload-hashes.json": "93c5ad4e8925f43ce8715b90a21136e4795f0c89e5b2c66e68975e1758f69282",
+    "publication-equivalence.json": "740a0ebb9bd3c30f05e2bff259f0b5e5ca52e4299b3814fd7a2f036866ca015f",
+    "rebuild.ps1": "04000ed0b9f6cdf2063c0508129f2a41c26f735ee267440c5de6e80245aeb56b",
+    "runtime/assets/gemini-original-128/manifest.json": "9368d18e801ba388b5107d0247fbcb969b11c94897b38c2037e794ecda10abf8",
+    "runtime/assets/gemini-original-256/manifest.json": "b9ef7a86c294d1eb0c952cf802d99fdd4cc371af1730de49600641dcba855008",
+    "runtime/assets/gemini-original-32/manifest.json": "8d271308b190771e54c0d3b5a4449747df14f27d9c3eb5c119b13269fb336669",
+    "runtime/assets/gemini-original-48/manifest.json": "b951f61c23024e8bf32cc3ecc0e9b0fca64880912a4997720df91e7561f73575",
+    "runtime/assets/gemini-original-64/manifest.json": "0e528826d1ee5cffe46c2c18dcb58b798316960e781d549bdb10a36277a56177",
+    "runtime/assets/gemini-original-96/manifest.json": "5b4620a3454d458fb3a6a9e0f58b9eccfa4975ae2ff3af206614f0b049f72415",
+    "runtime/assets/gemini-plus-128/manifest.json": "f7099eab44d2924cda15dfa3d2a7014104eddd3d252ebfe9d9f2d1e872b99e48",
+    "runtime/assets/gemini-plus-256/manifest.json": "84fb7bfc43c49d861d2dd13fdd6f91dd8c88743fd42d85e5db36259f37735997",
+    "runtime/assets/gemini-plus-32/manifest.json": "56dd95ab3f66a9552c3556a01b93bf30eec4d4c3f9118258cfebef31ca33ccd8",
+    "runtime/assets/gemini-plus-48/manifest.json": "36f9cfd59267eb9f45fd57a1a562d90457c738d690accdc1648495e0da416d9a",
+    "runtime/assets/gemini-plus-64/manifest.json": "2ca4de955a49ca20fe64d8dfc4ce68701c5fb273f46d311287185eadb60822ef",
+    "runtime/assets/gemini-plus-72/manifest.json": "0fa2ab0a712af7e16c6877c78141fdba48b66d1275980a82f8f84067e37bd317",
+    "runtime/assets/gemini-plus-96/manifest.json": "11ba45a4733db4c3a02961d86688559ed766391d66e12af8a9478d09e1bd4b0f",
+    "runtime/avoidance-settings.json": "3744c26b9cb2c1e41440e48514702f3c0b692da2d37fd1a7e34dd7bbc1e2d113",
+    "runtime/characters.json": "942d32bd53e34dd27f1b75ef9ba26d7ff811ed46b2e928a7d5081d1c8ab45b1c",
+    "source/Avatar.cs": "886d7bea0ff9a1f8e2299ce48533249e299da8d9794ebd6e422b264728a30b8d",
+    "source/AvatarHost.cs": "65facb0698690f7dd3c3566e13fac2a304a5a272488f074904caf6823b3b6fff",
+    "source/CharacterFrames.cs": "7d2bda24ba278a1f2ff6228a99b95dafb4e057789844ee63f6537ad3c2f4377f",
+    "source/DisplayRefresh.cs": "5b8cb544f3b8471759f8607f7c188ae1f66b1bdcc83b53995005a36d2ebc4233",
+    "source/IdleFade.cs": "ca590912c6d10f6e2b4bec6d30a3184305e1e569cf3fc759a4c7a50be3e8b063",
+    "source/NativeCursor.cs": "868201109c6440f385f977d9cdc3c8a7f6135eae804d079691928a77431251c0",
+    "source/PopupCache.cs": "3759907bb353870c7985a843bdeb5c7051cb5fae97b2b798006b78447f26f5ae",
+    "source/Program.cs": "80bd868f86b0b2f3c32e00b036ac34af6fa7363dc03d54f566fa7b3786ec2efe",
+    "source/Win.cs": "f3ed471c2560fd3195f12112795d29eb6ab08778fd08967d708e91cfad4959bf",
+    "技术说明.md": "6533f227191b2bc84897f2e4556090ba7f6ea68438accabcb5a638bc6afdfa5f"
+  },
+  "fullZip": {
+    "name": "gemini-cursors-full-avoidance-v1.4.0.zip",
+    "bytes": 43360207,
+    "sha256": "7c464acd1a6ae5ee58c52a74e5c51bad30cf83960d373938bd10557b5dee036d"
+  },
+  "selfContainedInstallation": false
+}
